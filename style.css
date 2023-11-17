@@ -1,3 +1,36 @@
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+}
+
 :root{
     --color-brand-light: #819B57;
     --color-brand-dark: #465929;
@@ -7,18 +40,27 @@
 /* Global */
 body{
     color: var(--color-dark);
+    font-family: "Poppins", sans-serif;
+    /* background: url(./images/big-image.jpg);
+    background-repeat: no-repeat;
+    width: 1440px; */
 }
 ul{
     list-style-type: none;
 }
 /* Button */
 /* Link */
+.link-logo{
+    width: 114px;
+    height: 56px;
+}
 .link{
     color: var( --color-light);
 }
 .link:hover{
     color: var(--color-brand);
 }
+
 /* Hero-section */
 .hero-title{
     color: var( --color-light);
@@ -38,4 +80,14 @@ ul{
 }
 .section-title span{
     color: var( --color-brand-dark) ;
+}
+.traditions-text{
+
+}
+.traditions-text .brand{
+    color: var(--color-brand-light) ;
+}
+.traditions-text .uppercase{
+    text-transform: uppercase;
+   
 }
